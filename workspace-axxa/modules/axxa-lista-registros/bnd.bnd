@@ -1,0 +1,4 @@
+Bundle-Name: axxa-lista-registros
+Bundle-SymbolicName: axxa.lista.registros
+Bundle-Version: 1.0.0
+Export-Package: axxa.lista.registros.constants

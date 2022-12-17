@@ -1,0 +1,74 @@
+.axxa-lista-registros {
+}
+
+button.ordenar i {
+	color: #00008f;
+    position: absolute;
+    right: 60%;
+    top: 30%;
+}
+
+button.ordenar {
+    background: none;
+    outline: none;
+    color: #00008f;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    padding-right: 10px;
+    word-break: break-word;
+    border: 0px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #00008f;
+}
+
+.btn-primary:hover {
+    background-color: #d24723;
+}
+
+div#tablas_axxa_info, .table-dacorate [id*='_filter'], .table-dacorate [id*='_info'] {
+    display: none;
+}
+
+#tablas_axxa_filter label {
+    color: #00008f;
+}
+
+div#tablas_axxa_paginate, .table-dacorate [id*='_paginate'] {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+div#tablas_axxa_paginate a#tablas_axxa_previous, div#tablas_axxa_paginate a#tablas_axxa_next, .table-dacorate [id*='_paginate'] a[id*='_previous'], .table-dacorate [id*='_paginate'] a[id*='_next'] {
+    font-size: 0;
+}
+
+div#tablas_axxa_paginate a#tablas_axxa_previous::after, .table-dacorate [id*='_paginate'] a[id*='_previous']::after {
+    content: '<<';
+    color: #00008f;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-family: monospace;
+}
+
+div#tablas_axxa_paginate a#tablas_axxa_next::after, .table-dacorate [id*='_paginate'] a[id*='_next']::after {
+    content: '>>';
+    color: #00008f;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-family: monospace;
+}
+
+label.error {
+    color: red;
+}
+
+input.error {
+    border-color: red;
+}
